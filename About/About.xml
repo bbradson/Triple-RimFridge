@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>Bradson's Legendary Triple RimFridge</name>
+	<author>bradson</author>
+	<supportedVersions>
+	<li>1.2</li>
+	</supportedVersions>
+
+	<url>https://ludeon.com/forums/index.php?topic=32980.0</url>
+	<description>Adds a triple fridge for RimFridge</description>
+	<packageId>rimfridge.bs.rw</packageId>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<displayName>[KV] RimFridge - 1.2</displayName>			
+			<packageId>rimfridge.kv.rw</packageId>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/1180721235</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+</ModMetaData>

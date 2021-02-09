@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="FridgeBase">
+		<defName>RimFridge_TripleRefrigerator</defName>
+		<label>Triple Refrigerator</label>
+		<designatorDropdown>StandAloneFridgeDesignatorDropdownDef</designatorDropdown>
+		<graphicData>
+			<texPath>Building/Temperature/Fridge/TripleFridge</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,2)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>40</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>40</Mass>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>1300</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>100</basePowerConsumption>
+      </li>
+			<li Class="RimFridge.CompProperties_SecondLayer">
+				<graphicData>
+					<texPath>Building/Temperature/Fridge/TripleFridgeLid</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>Transparent</shaderType>
+					<drawSize>(4,2)</drawSize>
+				</graphicData>
+				<altitudeLayer>Projectile</altitudeLayer>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+<!--	<ThingDef ParentName="FridgeBase">
+		<defName>RimFridge_HexaRefrigerator</defName>
+		<label>Hexa Refrigerator</label>
+		<designatorDropdown>StandAloneFridgeDesignatorDropdownDef</designatorDropdown>
+		<graphicData>
+			<texPath>Building/Temperature/Fridge/HexaFridge</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4, 4)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>80</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>90</Mass>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>2200</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(3,2)</size>
+		<comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>120</basePowerConsumption>
+      </li>
+			<li Class="RimFridge.CompProperties_SecondLayer">
+				<graphicData>
+					<texPath>Building/Temperature/Fridge/HexaFridgeLid</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>Transparent</shaderType>
+					<drawSize>(4,4)</drawSize>
+				</graphicData>
+				<altitudeLayer>Projectile</altitudeLayer>
+			</li>
+		</comps>
+	</ThingDef> -->
+</Defs>
